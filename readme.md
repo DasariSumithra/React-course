@@ -1,1 +1,1 @@
-Learning react course by doing projects
+Learning react course by doing projects and gaining knowledge
