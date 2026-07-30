@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   const [movies, setmovies] = useState([]);
   const [search,setsearch]=useState('');
-  const API_URL = "http://www.omdbapi.com?apikey=ba0a84e1";
+  const API_URL = "https://www.omdbapi.com?apikey=ba0a84e1";
 
   const searchmovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
